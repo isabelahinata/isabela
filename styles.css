@@ -1,0 +1,60 @@
+body {
+    background-color: #000000; /* fundo preto */
+    color: #E1FF00; /* amarelo citrico -
+ 
+    /*obs: busquei usar cores citricas neste projeto!*/
+ 
+    font-family: arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+ 
+.container {
+    text-align: center;
+}
+ 
+h1 {
+    color: #ff0055; /* rosa citrico */
+}
+ 
+form {
+    margin-bottom: 20px;
+}
+ 
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #ff0095; /* verde citrico */
+}
+ 
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #ff00aa;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+ 
+button {
+    background-color: #ff0062; /* Laranja citrico */
+color: #FFFFFF;
+border: none;
+padding: 10px 20px;
+border-radius: 4px;
+cursor: pointer;
+}
+ 
+button:hover {
+    background-color: #ff91cd; /*Amarelo citrico */
+    color: #000000;
+}
+ 
+#output {
+   margin-top: 20px;
+   color: #00FF7F; /*verde citricoo*/
+   font-size: 20px;
+}
